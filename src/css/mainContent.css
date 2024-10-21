@@ -1,0 +1,47 @@
+.main-content {
+    margin-left: 240px;
+    padding: 40px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .reports {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reports h2 {
+    margin-bottom: 20px;
+  }
+  
+  .reports button {
+    padding: 10px 20px;
+    margin-right: 20px;
+    background-color: #4e73df;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .reports button:hover {
+    background-color: #3757b3;
+  }
+  
+
+
+@media (max-width: 768px) {
+    .main-content {
+      margin-left: 100px;
+    }
+    .reports button{
+      margin-top: 20px;
+    }
+  }
+  
